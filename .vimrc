@@ -32,4 +32,6 @@ let g:vim_markdown_fenced_languages = ['csharp=cs']
 
 Plug 'tpope/vim-sensible'
 
+Plug 'ctrlpvim/ctrlp.vim'
+
 call plug#end()
