@@ -3,6 +3,11 @@
 
 :set colorcolumn=80
 
+nnoremap <Up> <nop>
+nnoremap <Down> <nop>
+nnoremap <Left> <nop>
+nnoremap <Right> <nop>
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
     " Use filetype detection and file-based automatic indenting.
@@ -24,5 +29,7 @@ call plug#begin()
 Plug 'preservim/vim-markdown'
 
 let g:vim_markdown_fenced_languages = ['csharp=cs']
+
+Plug 'tpope/vim-sensible'
 
 call plug#end()
